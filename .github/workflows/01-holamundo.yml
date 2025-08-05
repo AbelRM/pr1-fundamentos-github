@@ -18,4 +18,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Hola Mundo
-      run: echo "Hello ${{ inputs.name }}"
+      run: echo "Hello mundo - Abel"

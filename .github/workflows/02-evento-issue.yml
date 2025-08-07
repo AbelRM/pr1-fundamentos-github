@@ -1,0 +1,19 @@
+name: 02-Evento Issue
+# Trigger
+on:
+  push:
+    paths-ignore:
+      - '*.md'
+  issues:
+    types:
+      - opened
+#Job
+jobs:
+  hola-mundo:
+    # Runner
+    runs-on: ubuntu-latest
+    # Steps 
+    steps:
+    # Runs a single command using the runners shell
+      - name: Hola Mundo
+        run: echo "Hola Mundo"

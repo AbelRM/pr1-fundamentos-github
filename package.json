@@ -1,0 +1,21 @@
+{
+  "name": "pr1-fundamentos-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbelRM/pr1-fundamentos-github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AbelRM/pr1-fundamentos-github/issues"
+  },
+  "homepage": "https://github.com/AbelRM/pr1-fundamentos-github#readme"
+}

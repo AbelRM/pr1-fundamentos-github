@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/AbelRM/pr1-fundamentos-github/issues"
   },
-  "homepage": "https://github.com/AbelRM/pr1-fundamentos-github#readme"
+  "homepage": "https://github.com/AbelRM/pr1-fundamentos-github#readme",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
 }

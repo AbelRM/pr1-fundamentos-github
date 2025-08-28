@@ -1,4 +1,4 @@
-name: 17 - entornos ramas protegidas v1
+name: 17 - entornos ramas protegidas v2
 on:
   push:
     branches:

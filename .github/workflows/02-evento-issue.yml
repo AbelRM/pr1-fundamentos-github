@@ -6,7 +6,7 @@ on:
       - '*.md'
   issues:
     types:
-      - opened
+    - opened
 #Job
 jobs:
   hola-mundo:
@@ -15,5 +15,5 @@ jobs:
     # Steps 
     steps:
     # Runs a single command using the runners shell
-      - name: Hola Mundo
-        run: echo "Hola Mundo"
+    - name: Hola Mundo
+      run: echo "Hola Mundo"
